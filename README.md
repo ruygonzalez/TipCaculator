@@ -18,7 +18,7 @@ Submitted by: **Ruy Gonzalez Hermosillo**
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/TipsterDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='TipsterDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
