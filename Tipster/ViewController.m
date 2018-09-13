@@ -78,4 +78,18 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"View will appear");
+    // load the default tip percentage selected from settings screen
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double deftip = [defaults doubleForKey:@"default_tip_percentage"];
+    if(deftip == 0.15 || deftip == 0)
+        self.tipControl.selectedSegmentIndex = 0;
+    else if(deftip == 0.2)
+        self.tipControl.selectedSegmentIndex = 1;
+    else
+        self.tipControl.selectedSegmentIndex = 2;
+}
+
 @end

@@ -15,6 +15,7 @@
 		A31F0D632130A1AA00BA4C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F0D622130A1AA00BA4C55 /* main.m */; };
 		A31F0D6D2130A1AA00BA4C55 /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F0D6C2130A1AA00BA4C55 /* TipsterTests.m */; };
 		A31F0D782130A1AB00BA4C55 /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F0D772130A1AB00BA4C55 /* TipsterUITests.m */; };
+		A31F0D87214B18F700BA4C55 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F0D86214B18F700BA4C55 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A31F0D732130A1AA00BA4C55 /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31F0D772130A1AB00BA4C55 /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		A31F0D792130A1AB00BA4C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31F0D85214B18F700BA4C55 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A31F0D86214B18F700BA4C55 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		A31F0D472130A1AA00BA4C55 = {
 			isa = PBXGroup;
 			children = (
+				A31F0D85214B18F700BA4C55 /* SettingsViewController.h */,
+				A31F0D86214B18F700BA4C55 /* SettingsViewController.m */,
 				A31F0D522130A1AA00BA4C55 /* Tipster */,
 				A31F0D6B2130A1AA00BA4C55 /* TipsterTests */,
 				A31F0D762130A1AA00BA4C55 /* TipsterUITests */,
@@ -268,6 +273,7 @@
 				A31F0D582130A1AA00BA4C55 /* ViewController.m in Sources */,
 				A31F0D632130A1AA00BA4C55 /* main.m in Sources */,
 				A31F0D552130A1AA00BA4C55 /* AppDelegate.m in Sources */,
+				A31F0D87214B18F700BA4C55 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
